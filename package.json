@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "proxied": "USE_PROXY=true node ./index.js",
+    "unproxied": "USE_PROXY=false node ./index.js"
+  },
+  "volta": {
+    "node": "16.20.2"
+  },
+  "dependencies": {
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^2.6.7"
+  }
+}
